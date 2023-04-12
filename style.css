@@ -390,6 +390,9 @@ form .btn2{
         background-color: #0196e3;
         display: none;
     }
+    .fa-solid{
+        display: none;
+    }
 
 }
 @media only screen and (max-width:600px){
