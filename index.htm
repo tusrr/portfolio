@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio-Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1d8e834010.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href='#header'>Home</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#services'>Services</a></li>
+                    <li><a href='#portfolio'>Portfolio</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> UI/UX Designer</p>
+                <h1>Hi , I'm &nbsp; <span>T</span>ushar <br> from India</h1>
+            </div>
+
+        </div>
+    </div>
+    <div class="card">
+        <div class="member">
+            <div class="content">
+                <div class="imgBx">
+                    <img src="./images/meeee.png" alt="mem1">
+                </div>
+                <div class="contentBx">
+                    <h4>Tushar Raj</h4>
+                    <h5>Mr. Wag</h5>
+                </div>
+                <div class="sci">
+                    <a href="https://www.linkedin.com/in/" class="fab fa-linkedin"
+                        style="font-size: 30px; margin: 10px; color: #0e76a8;" target="_blank"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <marquee>Hemlo Vimdhayak Ji here</marquee>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/meeee.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Hi, I'm Tushar, UG Student with a passion for Technology. With [number of years] years of
+                        experience in [related field or industry], I've had the
+                        pleasure of working with [list some notable clients or projects you've worked on].
+
+                        I hold a [degree or certification] in [related field], and have honed my skills in [list your
+                        areas of expertise, skills, or strengths that are relevant to your work]. My goal is to [what
+                        you aim to achieve in your work, or how you can help potential clients or employers].
+
+                        I believe that [philosophy or mission statement that guides your work], and strive to [how you
+                        incorporate your values and beliefs into your work]. When I'm not working, you can find me
+                        [related interests or hobbies that tie back to your work].
+
+                        In this portfolio, you'll find examples of my work, including [list the types of work samples
+                        included in your portfolio]. I hope these examples showcase my abilities and give you a better
+                        sense of my style and approach.
+
+                        If you have any questions or would like to work together, please don't hesitate to [provide a
+                        call-to-action, such as asking them to contact you or view your resume]. Thank you for taking
+                        the time to learn more about me and my work.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education </p>
+                    </div>
+                    <div class="tab-contents active-tab">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web/App Development</li>
+                            <li><span>App Development</span><br>Designing Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <!-- Experience -->
+                    <div class="tab-contents" id="experience">
+
+                        <ul>
+                            <li><span>2021-Current</span><br>Content Writing Manager at Vidyayan</li>
+                            <li><span>Year:</span><br>Experience 1</li>
+                            <li><span>Year:</span><br>Exp 2</li>
+                        </ul>
+                    </div>
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Year: 2017</span><br>10th Boards (equiv. Matriculation)</li>
+                            <li><span>Year: 2019</span><br>12th Boards (equiv. Intermediate)</li>
+                            <li><span>Year: 2020-24</span><br>B.Tech (ECE)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- services -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code fa-bounce"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam amet magni, expedita sint
+                            quas quibusdam
+                            eius ab velit aspernatur maxime.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios fa-bounce"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam amet magni, expedita sint
+                            quas quibusdam
+                            eius ab velit aspernatur maxime.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-uikit fa-bounce"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam amet magni, expedita sint
+                            quas quibusdam
+                            eius ab velit aspernatur maxime.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="sub-title">My Work</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to the millions of people around the world.Download it from
+                                Playstore !</p>
+                        </div>
+                        <a href="#"><i class="fa-light fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The app connects you to the millions of people around the world.Download it from
+                                Playstore !</p>
+                        </div>
+                        <a href="#"><i class="fa-light fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Online shopping App</h3>
+                            <p>The app connects you to the millions of people around the world.Download it from
+                                Playstore !</p>
+                            <a href="#"><i class="fa-light fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+
+            </div>
+        </div>
+        <!-- Contact------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h2 class="sub-title">Contact Me</h2>
+                        <p><i class="fa-solid fa-paper-plane"></i>tushar.raj2000@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile"></i>91100XXXXX</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100006112994811" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/xfigured_tusr/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter" target="_blank"></i></a>
+                            <a href="https://www.linkedin.com/in/tushar-raj-95505415a/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/tusrr" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+
+                        <span id="msg">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                                <button class="btn btn2">Submit</button>
+                            </form>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <p><i class="fa-regular fa-copyright"></i> &nbsp; Copyright - Tushar 2023 <br> Made With <i
+                        class="fas fa-heart"></i> by Tushar Raj </p>
+            </div>
+
+        </div>
+
+
+
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+
+
+            }
+
+
+
+        </script>
+
+        <!-- <form name="submit-to-google-sheet">
+            <input name="email" type="email" placeholder="Email" required>
+            <button type="submit">Send</button>
+        </form> -->
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzlAdPAqU1VMYpIr7JdkjdmbutbsfI_4Kz7FkEzvPlmQxIJUI1WeVefg9fHjyxpeoU/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = 'Message sent successfully!!'
+                        setTimeout(function () {
+                            msg.innerHTML = ''
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+
+
+</body>
+
+</html>
