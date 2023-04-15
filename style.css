@@ -13,6 +13,20 @@ body {
     background: #000000;
     color: white;
 }
+@media only screen and (min-width:600px){
+    .member{
+        background-color: #0196e3;
+        display: none;
+    }
+    #nav-icons-1{
+        display: none;
+    }
+    #nav-icons-2{
+        display: none;
+    }
+    
+
+}
 
 #header {
     width: 100%;
@@ -380,19 +394,7 @@ form .btn2{
 }
 
 /* CSS FOR SMALL SCREEN */
-@media only screen and (min-width:600px){
-    .member{
-        background-color: #0196e3;
-        display: none;
-    }
-    .fa-solid{
-        display: none;
-    }
-    .fa-bars{
-        display: none;
-    }
 
-}
 @media only screen and (max-width:600px){
 
 #header{
