@@ -24,8 +24,6 @@ body {
     #nav-icons-2{
         display: none;
     }
-    
-
 }
 
 #header {
@@ -286,6 +284,12 @@ nav ul li a:hover::after {
     border-radius: 50%;
     text-align: center;
 
+}
+
+.work{
+    /* border-style: groove; */
+
+    border:6px groove white;
 }
 
 .work:hover img{
