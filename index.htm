@@ -196,7 +196,7 @@
 
             </div>
         </div>
-        <!-- Contact------------------- -->
+        <!-- Contact----------->
         <div id="contact">
             <div class="container">
                 <div class="row">
@@ -219,7 +219,8 @@
                     <div class="contact-right">
 
                         <span id="msg">
-                            <form name="submit-to-google-sheet">
+                            <form name="submit-to-google-sheet" action="https://formsubmit.co/tushar.raj2000@gmail.com"
+                                method="POST">
                                 <input type="text" name="Name" placeholder="Your Name" required>
                                 <input type="email" name="Email" placeholder="Your Email" required>
                                 <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
@@ -238,8 +239,6 @@
             </div>
 
         </div>
-
-
 
 
 
@@ -264,6 +263,7 @@
 
 
         </script>
+
         <script>
             var sidemenu = document.getElementById("sidemenu");
             function openmenu() {
@@ -274,17 +274,14 @@
 
 
             }
-
-
-
         </script>
 
-        <!-- <form name="submit-to-google-sheet">
+        <!--        <form name="submit-to-google-sheet">
             <input name="email" type="email" placeholder="Email" required>
             <button type="submit">Send</button>
-        </form> -->
+        </form>              -->
 
-        <script>
+        <!-- <script>
             const scriptURL = 'https://script.google.com/macros/s/AKfycbzlAdPAqU1VMYpIr7JdkjdmbutbsfI_4Kz7FkEzvPlmQxIJUI1WeVefg9fHjyxpeoU/exec'
             const form = document.forms['submit-to-google-sheet']
             const msg = document.getElementById("msg")
@@ -301,10 +298,7 @@
                     })
                     .catch(error => console.error('Error!', error.message))
             })
-        </script>
-
-
-
+        </script> -->
 </body>
 
 </html>
