@@ -28,7 +28,7 @@
             </nav>
             <div class="header-text">
                 <h1>Hi , I'm &nbsp; <span>T</span>ushar </h1>
-                <span style="font-size: medium";>1+ Yr Experienced Web Dev</span>
+                <span style="font-size: medium";>3+ Yr Experienced Full Stack Dev</span>
 
                 <!-- <h3>Tech that I've hands-on experience with</h3>
                 <ul>
@@ -36,7 +36,7 @@
                     <li>py</li>
                 </ul> -->
             </div>
-                        <a href="./Tushar-Resume.pdf" target="_blank" download class="btn btn2">Download CV</a>
+                        <a href="https://drive.google.com/file/d/1NeNMewvlpJ424J8FkTcgFbLjMwBHeYcP/view?usp=drive_link" target="_blank" download class="btn btn2">View Resume</a>
 
         </div>
     </div>
@@ -46,10 +46,255 @@
                 <div class="imgBx">
                     <img src="./images/meeee.png" alt="mem1">
                 </div>
-                <div class="contentBx">
-                    <h4>Tushar Raj</h4>
-                    <h5>Web Developer</h5>
-                </div>
+                
+<div class="contentBx cosmic-card">
+    <div class="planet-system" aria-hidden="true">
+        <span class="orbit orbit-one"></span>
+        <span class="orbit orbit-two"></span>
+        <span class="planet"></span>
+        <span class="moon"></span>
+    </div>
+
+    <div class="stars" aria-hidden="true">✦ · ✧ · ✦</div>
+
+    <div class="profile-content">
+        <h4>🚀 Tushar Raj</h4>
+        <h5>Full Stack Developer <span>|</span> Java Backend + React frontend</h5>
+
+        <ul>
+            <li>
+                <strong>⚡ Primary Skill</strong>
+                <span>Java, Spring Boot, REST APIs, JDBC, JPA / Hibernate</span>
+            </li>
+            <li>
+                <strong>🛡️ Application Security</strong>
+                <span>CSRF Protection, Rate Limiting, File Upload Validation, Polyglot Attack Prevention</span>
+            </li>
+            <li>
+                <strong>💻 Programming & Databases</strong>
+                <span>JavaScript, SQL</span>
+            </li>
+            <li>
+                <strong>🛠️ Tools & Technologies</strong>
+                <span>Linux, Nginx, React.js, HTML5, CSS3, Maven, Git, Jenkins, WinSCP</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<style>
+.cosmic-card {
+    position: relative;
+    isolation: isolate;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: clamp(18px, 4vw, 34px);
+    border-radius: 18px;
+    color: #e8efff;
+    background:
+        radial-gradient(ellipse at 85% 12%, #263e70 0%, transparent 42%),
+        linear-gradient(135deg, #080d20, #111a35 65%, #090e20);
+    border: 1px solid rgba(130,170,255,.25);
+    box-shadow: 0 12px 40px rgba(0,0,0,.3);
+}
+
+.profile-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-width: 0;
+}
+
+.cosmic-card h4 {
+    font-size: clamp(22px, 4vw, 30px);
+    color: #fff;
+    margin: 0 0 7px;
+    letter-spacing: 1px;
+    overflow-wrap: anywhere;
+}
+
+.cosmic-card h5 {
+    font-size: clamp(12px, 2vw, 15px);
+    color: #79caff;
+    margin: 0 0 24px;
+    line-height: 1.6;
+}
+
+.cosmic-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.cosmic-card li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 13px 0;
+    line-height: 1.65;
+    border-bottom: 1px solid rgba(255,255,255,.09);
+    font-size: clamp(12px, 1.5vw, 14px);
+    overflow-wrap: anywhere;
+}
+
+.cosmic-card li strong {
+    color: #82cfff;
+    font-size: 1.02em;
+}
+
+.cosmic-card li span {
+    color: #d5def2;
+}
+
+.planet-system {
+    position: absolute;
+    width: clamp(130px, 25vw, 220px);
+    aspect-ratio: 1;
+    right: clamp(-65px, -3vw, -25px);
+    top: clamp(-90px, -8vw, -45px);
+    opacity: .65;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.orbit {
+    position: absolute;
+    inset: 12%;
+    border: 1px solid rgba(130,190,255,.3);
+    border-radius: 50%;
+}
+
+.orbit-one {
+    transform: rotate(-25deg) scaleY(.48);
+    animation: orbitOne 14s linear infinite;
+}
+
+.orbit-two {
+    transform: rotate(55deg) scaleY(.68);
+    animation: orbitTwo 20s linear infinite;
+}
+
+.planet {
+    position: absolute;
+    width: 23%;
+    aspect-ratio: 1;
+    top: 38.5%;
+    left: 38.5%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 28%, #b5d9ff, #4779bc 45%, #17264d 85%);
+    box-shadow: 0 0 28px rgba(91,160,255,.65);
+    animation: planetFloat 5s ease-in-out infinite;
+}
+
+.moon {
+    position: absolute;
+    width: 6%;
+    aspect-ratio: 1;
+    top: 9%;
+    left: 47%;
+    border-radius: 50%;
+    background: #d5e9ff;
+    box-shadow: 0 0 15px #8acaff;
+    animation: moonOrbit 8s linear infinite;
+}
+
+.stars {
+    position: absolute;
+    right: 15px;
+    top: 150px;
+    color: #9fcfff;
+    opacity: .6;
+    letter-spacing: 8px;
+    font-size: 13px;
+    pointer-events: none;
+    animation: twinkle 3s ease-in-out infinite alternate;
+}
+
+@keyframes orbitOne {
+    to { transform: rotate(335deg) scaleY(.48); }
+}
+
+@keyframes orbitTwo {
+    to { transform: rotate(415deg) scaleY(.68); }
+}
+
+@keyframes moonOrbit {
+    from { transform: rotate(0deg) translateX(75px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(75px) rotate(-360deg); }
+}
+
+@keyframes planetFloat {
+    50% { transform: translateY(-7px); }
+}
+
+@keyframes twinkle {
+    to { opacity: 1; }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .cosmic-card {
+        border-radius: 15px;
+    }
+
+    .cosmic-card h5 {
+        max-width: 85%;
+    }
+
+    .stars {
+        top: 115px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .cosmic-card {
+        padding: 20px 16px;
+        border-radius: 13px;
+    }
+
+    .cosmic-card h4 {
+        font-size: 23px;
+    }
+
+    .cosmic-card h5 {
+        max-width: 100%;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .cosmic-card li {
+        padding: 11px 0;
+        font-size: 12px;
+    }
+
+    .planet-system {
+        width: 125px;
+        right: -45px;
+        top: -40px;
+        opacity: .4;
+    }
+
+    .stars {
+        display: none;
+    }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .cosmic-card *,
+    .cosmic-card *::before,
+    .cosmic-card *::after {
+        animation: none !important;
+    }
+}
+</style>
+
+              
                 <div class="sci">
                     <a href="https://www.linkedin.com/in/tushar-raj" class="fab fa-linkedin"
                         style="font-size: 30px; margin: 10px; color: #0e76a8;" target="_blank"></a>
